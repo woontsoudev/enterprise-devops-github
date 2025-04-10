@@ -14,5 +14,21 @@ locals {
       topics = ["terraform", "github", "github-actions", "github-actions-terraform", "github-actions-terraform-enterprise", "github-actions-terraform-github"]
       visibility = "public"
     }
+
+    "enterprise-devops-terraform-aws-network" = {
+      description        = "Automation for GitHub"
+      gitignore_template = "Terraform"
+      name               = "enterprise-devops-terraform-aws-network"
+      topics             = ["frontend-masters", "terraform"]
+      visibility         = "private"
+    }
+
+    "enterprise-devops-terraform-aws-cluster" = {
+      description        = "Automation for GitHub"
+      gitignore_template = "Terraform"
+      name               = "enterprise-devops-terraform-aws-cluster"
+      topics             = ["frontend-masters", "terraform"]
+      visibility         = "private"
+    }
   }
 }
