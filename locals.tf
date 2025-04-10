@@ -1,9 +1,9 @@
 locals {
   repos = {
-    "enterprise-devops-tfe" = {
+    "enterprise-devops-terraform-tfe" = {
       description = "Automation for terraform enterprise"
       gitignore_template = "Terraform"
-      name = "enterprise-devops-tfe"
+      name = "enterprise-devops-terraform-tfe"
       topics = ["terraform", "github", "github-actions", "github-actions-terraform", "github-actions-terraform-enterprise", "github-actions-terraform-github"]
       visibility = "public"
     }
