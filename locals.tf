@@ -30,5 +30,13 @@ locals {
       topics             = ["frontend-masters", "terraform"]
       visibility         = "public"
     }
+
+     "enterprise-devops-service" = {
+      description        = "Automation for product services"
+      gitignore_template = "Go"
+      name               = "enterprise-devops-service"
+      topics             = ["frontend-masters", "terraform"]
+      visibility         = "private"
+    }
   }
 }
