@@ -31,8 +31,16 @@ locals {
       visibility         = "public"
     }
 
-     "enterprise-devops-service" = {
+     "enterprise-devops-terraform-product-service" = {
       description        = "Automation for product services"
+      gitignore_template = "Terraform"
+      name               = "enterprise-devops-terraform-product-service"
+      topics             = ["frontend-masters", "terraform"]
+      visibility         = "public"
+    }
+
+    "enterprise-devops-service" = {
+      description        = "example product service"
       gitignore_template = "Go"
       name               = "enterprise-devops-service"
       topics             = ["frontend-masters", "terraform"]
