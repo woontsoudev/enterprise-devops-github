@@ -36,7 +36,7 @@ locals {
       gitignore_template = "Go"
       name               = "enterprise-devops-service"
       topics             = ["frontend-masters", "terraform"]
-      visibility         = "private"
+      visibility         = "public"
     }
   }
 }
